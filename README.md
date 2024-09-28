@@ -1,6 +1,6 @@
 # Rare disease analysis
 
-Rare diseases are conditions that affect a  percentage of the population, typically fewer than 200,000 people in the U.S. or 1 in 2,000 in Europe. This imprecision in the definition makes determining the precise number of "rare diseases" , however estimates and curation efforts cite approximately 7000 known diseases.
+Rare diseases are conditions that affect a small percentage of the population, typically fewer than 200,000 people in the U.S. or 1 in 2,000 in Europe. This imprecision in the definition makes determining the precise number of "rare diseases", however estimates and curation efforts cite approximately 7000 known diseases.
 
 The low incidence within the general population of these rare diseases make them economically unappealing for traditional drug discovery processes. This unmet need may be overcome through the repurposing of existing drugs to modulate and improve patient outcomes in understudied rare disease areas.
 
