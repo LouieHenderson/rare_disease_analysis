@@ -4,6 +4,9 @@
 #Other files
 #/Datasets/*
 #/Work/*
+/notebooks/pass_ent.txt
+/notebooks/Results/*
+/notebooks/data/* 
 
 ### Linux ###
 *~
