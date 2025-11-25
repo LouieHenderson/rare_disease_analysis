@@ -45,6 +45,7 @@ def startGraph(passloc, directory):
             "--nodes="+ curdir+"/funcnodes.csv", \
             "--relationships="+ curdir+"/profuncedge.csv", \
             "--relationships="+ curdir+"/disprotedge.csv", \
+            "--relationships="+ curdir+"/indisprotedge.csv", \
             "--delimiter=;", \
             "--array-delimiter=|", \
             "--overwrite-destination", \

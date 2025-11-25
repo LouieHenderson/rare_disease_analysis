@@ -1,4 +1,11 @@
 
+import torch.nn as nn
+import torch
+import gc
+import os
+import time
+
+
 class SequenceClassifier(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_classes):
         super(SequenceClassifier, self).__init__()
@@ -12,7 +19,7 @@ class SequenceClassifier(nn.Module):
         output = self.fc(hidden)
         return output
 
-def EmbeddingGeneration(inputlist, outdir, model):
+def EmbeddingGeneration(inputlist, outdir, model, batch_converter):
     embdic = {}
     baduniprot = []
     
